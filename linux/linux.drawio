@@ -88,7 +88,7 @@
           <mxGeometry x="246" y="-289" width="126" height="55" as="geometry" />
         </mxCell>
         <mxCell id="3OuFwvBG6yCisxhikuSK-18" value="系统开机所需要最基本的动态连接共享库，其作用类似于Windows里的DLL文件。几乎所有的应用程序都需要&lt;br/&gt;用到这些共享库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="68" y="-57" width="593" height="41" as="geometry" />
+          <mxGeometry x="64" y="-58" width="593" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
