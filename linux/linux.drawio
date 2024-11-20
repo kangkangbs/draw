@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="第 1 页" id="q6HiDoMOUTd5LAEGEgPX">
-    <mxGraphModel dx="5418" dy="3716" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4466" dy="2608" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,11 @@
         </mxCell>
         <mxCell id="3OuFwvBG6yCisxhikuSK-8" value="RPM与YUM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="51" y="469" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1439" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WtJvPKpndNf4Lo6qMJNH-1" target="_CivRj4n2iROgCBlS6BR-1440">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-407.2880597795761" y="-260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WtJvPKpndNf4Lo6qMJNH-1" value="日志" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;direction=west;" parent="1" vertex="1">
           <mxGeometry x="-346" y="-275" width="60" height="30" as="geometry" />
@@ -4815,6 +4820,180 @@
         <mxCell id="_CivRj4n2iROgCBlS6BR-1286" value="commands" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_CivRj4n2iROgCBlS6BR-1285">
           <mxGeometry x="0.6247" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1440" value="系统常用的日志" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-485" y="-275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1478" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_CivRj4n2iROgCBlS6BR-1440" target="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-529" y="-260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1480" value="目录说明" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_CivRj4n2iROgCBlS6BR-1478">
+          <mxGeometry x="0.0403" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1441" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-996" y="-566" width="346" height="479.0066129896368" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1442" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry width="346" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1443" value="日志文件" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1442">
+          <mxGeometry width="100" height="20" as="geometry">
+            <mxRectangle width="100" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1444" value="说明" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1442">
+          <mxGeometry x="100" width="246" height="20" as="geometry">
+            <mxRectangle width="246" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1445" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="20" width="346" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1446" value="/var/log/boot.log" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1445">
+          <mxGeometry width="100" height="18" as="geometry">
+            <mxRectangle width="100" height="18" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1447" value="系统启动日志" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1445">
+          <mxGeometry x="100" width="246" height="18" as="geometry">
+            <mxRectangle width="246" height="18" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1448" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="38" width="346" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1449" value="/var/log/cron" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1448">
+          <mxGeometry width="100" height="19" as="geometry">
+            <mxRectangle width="100" height="19" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1450" value="记录与系统定时任务相关的日志" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1448">
+          <mxGeometry x="100" width="246" height="19" as="geometry">
+            <mxRectangle width="246" height="19" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1451" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="57" width="346" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1452" value="/var/log/cups" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1451">
+          <mxGeometry width="100" height="21" as="geometry">
+            <mxRectangle width="100" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1453" value="记录打印信息的日志" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1451">
+          <mxGeometry x="100" width="246" height="21" as="geometry">
+            <mxRectangle width="246" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1454" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="78" width="346" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1455" value="/var/log/dmesg" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1454">
+          <mxGeometry width="100" height="33" as="geometry">
+            <mxRectangle width="100" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1456" value="记录了系统在开机时内核自检的信息。也可以使用dmesg命令直接查看内核自检信息" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1454">
+          <mxGeometry x="100" width="246" height="33" as="geometry">
+            <mxRectangle width="246" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1457" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="111" width="346" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1458" value="/var/log/btmp" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1457">
+          <mxGeometry width="100" height="32" as="geometry">
+            <mxRectangle width="100" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1459" value="记录错误登录的日志。该文件为二进制文件，要使用lastb命令查看" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1457">
+          <mxGeometry x="100" width="246" height="32" as="geometry">
+            <mxRectangle width="246" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1460" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="143" width="346" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1461" value="/var/log/lasllog" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1460">
+          <mxGeometry width="100" height="45" as="geometry">
+            <mxRectangle width="100" height="45" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1462" value="记录系统中所有用户最后一次登录时间的日志。这个文件是二进制，要使用lastlog命令查看" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1460">
+          <mxGeometry x="100" width="246" height="45" as="geometry">
+            <mxRectangle width="246" height="45" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1463" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="188" width="346" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1464" value="/var/log/mailog" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1463">
+          <mxGeometry width="100" height="17" as="geometry">
+            <mxRectangle width="100" height="17" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1465" value="记录邮件信息的日志" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1463">
+          <mxGeometry x="100" width="246" height="17" as="geometry">
+            <mxRectangle width="246" height="17" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1466" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="205" width="346" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1467" value="/var/log/message" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1466">
+          <mxGeometry width="100" height="66" as="geometry">
+            <mxRectangle width="100" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1468" value="记录系统重要消息的日志。这个日志文件中会记录linux系统的绝大多数重要信息。如果系统出现问题，首先要检查的应该是这个文件" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1466">
+          <mxGeometry x="100" width="246" height="66" as="geometry">
+            <mxRectangle width="246" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1469" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="271" width="346" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1470" value="/var/log/secure" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1469">
+          <mxGeometry width="100" height="70" as="geometry">
+            <mxRectangle width="100" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1471" value="记录验证和授权方面的信息，只要涉及账户和密码的程序都会记录，比如系统的登录，ssh的登录，su切换用户，sudo授权，甚至添加用户和修改用户密码都会记录在这个日志文件中" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1469">
+          <mxGeometry x="100" width="246" height="70" as="geometry">
+            <mxRectangle width="246" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1472" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="341" width="346" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1473" value="/var/log/wtmp" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1472">
+          <mxGeometry width="100" height="78" as="geometry">
+            <mxRectangle width="100" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1474" value="永久记录所有用户的登录、注销信息，同时记录系统的启动，重启，关机事件。是二进制文件，要通过last命令查看" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1472">
+          <mxGeometry x="100" width="246" height="78" as="geometry">
+            <mxRectangle width="246" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1475" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1441">
+          <mxGeometry y="419" width="346" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1476" value="/var/tun/ulmp" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1475">
+          <mxGeometry width="100" height="60" as="geometry">
+            <mxRectangle width="100" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1477" value="记录当前已经登录的用户的信息，这个文件会随着用户的登录和注销而不断变化，只记录当前用户的信息，这个文件不能用Vi查看，而要使用w，who，users等命令查看" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1475">
+          <mxGeometry x="100" width="246" height="60" as="geometry">
+            <mxRectangle width="246" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
