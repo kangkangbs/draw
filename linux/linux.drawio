@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="第 1 页" id="q6HiDoMOUTd5LAEGEgPX">
-    <mxGraphModel dx="2317" dy="2971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1432" dy="2369" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,6 +37,9 @@
         <mxCell id="_CivRj4n2iROgCBlS6BR-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VQppUx2D1PjsJDlK34uk-1" target="_CivRj4n2iROgCBlS6BR-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VQppUx2D1PjsJDlK34uk-1" target="WtJvPKpndNf4Lo6qMJNH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VQppUx2D1PjsJDlK34uk-1" value="linux知识梳理" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-94" y="201" width="89" height="89" as="geometry" />
         </mxCell>
@@ -58,17 +61,6 @@
         <mxCell id="3OuFwvBG6yCisxhikuSK-1" value="磁盘" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="51" y="424" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3OuFwvBG6yCisxhikuSK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3OuFwvBG6yCisxhikuSK-2" target="3OuFwvBG6yCisxhikuSK-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3OuFwvBG6yCisxhikuSK-14" value="/" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="3OuFwvBG6yCisxhikuSK-13" vertex="1" connectable="0">
-          <mxGeometry x="-0.26" y="1" width="21" height="25" relative="1" as="geometry">
-            <mxPoint x="-10" y="-12" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3OuFwvBG6yCisxhikuSK-2" value="目录结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="38" y="-177" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="3OuFwvBG6yCisxhikuSK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="3OuFwvBG6yCisxhikuSK-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-5" y="246" as="sourcePoint" />
@@ -76,244 +68,6 @@
         </mxCell>
         <mxCell id="3OuFwvBG6yCisxhikuSK-8" value="RPM与YUM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="51" y="469" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3OuFwvBG6yCisxhikuSK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="3OuFwvBG6yCisxhikuSK-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="191" y="-161" as="sourcePoint" />
-            <mxPoint x="338" y="-184" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-28" value="/lib" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3OuFwvBG6yCisxhikuSK-19" vertex="1" connectable="0">
-          <mxGeometry x="0.7165" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="654.8674568965519" y="-256.95743534482745" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-18" value="/lost+found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-17" vertex="1" connectable="0">
-          <mxGeometry x="0.8237" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-23" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%2Fsbin%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22412.99021261167604%22%20y%3D%226.0451699945756445%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%2Fsbin%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22412.99021261167604%22%20y%3D%226.0451699945756445%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-22" vertex="1" connectable="0">
-          <mxGeometry x="0.766" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-24" value="/sbin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-22" vertex="1" connectable="0">
-          <mxGeometry x="0.7563" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-26" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%2Fbin%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22380.0689655172416%22%20y%3D%22-160.9655172413793%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E/&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-25" vertex="1" connectable="0">
-          <mxGeometry x="0.6816" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-27" value="/bin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-25" vertex="1" connectable="0">
-          <mxGeometry x="0.685" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="3OuFwvBG6yCisxhikuSK-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-30" value="/root" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-29" vertex="1" connectable="0">
-          <mxGeometry x="0.7985" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-33" value="/etc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-32" vertex="1" connectable="0">
-          <mxGeometry x="0.6623" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-36" value="/usr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-35" vertex="1" connectable="0">
-          <mxGeometry x="0.6622" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-37" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-39" value="/boot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-38" vertex="1" connectable="0">
-          <mxGeometry x="0.7614" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-42" value="/proc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-41" vertex="1" connectable="0">
-          <mxGeometry x="0.6108" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-45" value="/srv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-44" vertex="1" connectable="0">
-          <mxGeometry x="0.8138" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-48" value="/sys" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-47" vertex="1" connectable="0">
-          <mxGeometry x="0.7989" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-51" value="/tmp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-50" vertex="1" connectable="0">
-          <mxGeometry x="0.8544" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-55" value="/dev" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-54" vertex="1" connectable="0">
-          <mxGeometry x="0.7627" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-56" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-58" value="/media" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-57" vertex="1" connectable="0">
-          <mxGeometry x="0.8585" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-53" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-60" value="/opt " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-59" vertex="1" connectable="0">
-          <mxGeometry x="0.8921" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-61" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-65" value="/mnt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-63" vertex="1" connectable="0">
-          <mxGeometry x="0.8572" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-62" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-69" value="/var" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-64" vertex="1" connectable="0">
-          <mxGeometry x="0.8649" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-70" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-72" value="/selinux" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-71" vertex="1" connectable="0">
-          <mxGeometry x="0.8652" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3OuFwvBG6yCisxhikuSK-12" value="根目录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="169" y="-205" width="19" height="87" as="geometry" />
-        </mxCell>
-        <mxCell id="3OuFwvBG6yCisxhikuSK-15" value="该目录为系统管理员，也称作超级权限者的用户主目录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="439" y="-109" width="306" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3OuFwvBG6yCisxhikuSK-18" value="系统开机所需要最基本的动态连接共享库，其作用类似于Windows里的DLL文件。几乎所有的应用程序都需要&lt;br/&gt;用到这些共享库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="435" y="-65" width="593" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-4" value="是Binary的缩写, 这个目录存放着最经常使用的命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="440" y="-10" width="287" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-9" value="s就是SuperUser的意思，这里存放的是系统管理员使用的系统管理程序。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="440" y="35" width="405" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-12" value="这个目录一般情况下是空的，当系统非法关机后，这里就存放了一些文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="440" y="104" width="405" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-13" value="存放普通用户的主目录，在Linux中每个用户都有一个自己的目录，一般该目录名是以用户的账号命名, " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="442" y="66" width="554" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-19" value="/home" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-14" vertex="1" connectable="0">
-          <mxGeometry x="0.7034" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-31" value="所有的系统管理所需要的配置文件和子目录, 比如安装mysql数据库 my.conf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="440" y="-149" width="412" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="19bWRe63vrNReFquvYGr-34" target="19bWRe63vrNReFquvYGr-66" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-68" value="/local" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-67" vertex="1" connectable="0">
-          <mxGeometry x="-0.094" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-34" value="这是一个非常重要的目录，用户的很多应用程序和文件都放在这个目录下，类似与windows下的programfiles目录。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="440" y="-200" width="622" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-37" value="存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="440" y="-295" width="622" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-40" value="[不能动] 这个目录是一个虚拟的目录，它是系统内存的映射，访问这个目录来获取系统信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="442" y="-246" width="622" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-43" value=" [不能动] service 缩写，该目录存放一些服务启动之后需要提取的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="440" y="-337" width="622" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-46" value=" 这是linux2.6内核的一个很大的变化。该目录下安装了2.6内核中新出现的一个文件系统 sysfs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="442" y="-379" width="622" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-49" value="这个目录是用来存放一些临时文件的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="442" y="-469" width="405" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-52" value="类似于windows的设备管理器，把所有的硬件用文件的形式存储" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="442" y="-437" width="405" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-53" value="这是给主机额外安装软件所存放的目录。如安装ORACLE数据库就可放到该目录下。默认为空" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="445" y="-510" width="511" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-56" value=" linux 系统会自动识别一些设备，例如U盘、光驱等等，当识别后，linux会把识别的设备挂载到这个&lt;br/&gt;目录下" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="442" y="-543" width="622" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-61" value="系统提供该目录是为了让用户临时挂载别的文件系统的，我们可以将外部的存储挂载在/mnt/上，然后进入该目录就" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="442" y="-584" width="622" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-62" value="这个目录中存放着在不断扩充着的东西，习惯将经常被修改的目录放在这个目录下。包括各种日志文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="442" y="-625" width="631" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-66" value="这是另一个给主机额外安装软件所安装的目录。一般是通过编译源码方式安装的程序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1114" y="-200" width="622" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="19bWRe63vrNReFquvYGr-70" value="SELinux 是一种安全子系统,它能控制程序只能访问特定文件, 有三种工作模式，可以自行设置." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="442" y="160" width="511" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WtJvPKpndNf4Lo6qMJNH-1" value="日志" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="51" y="514" width="60" height="30" as="geometry" />
@@ -994,6 +748,267 @@
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_CivRj4n2iROgCBlS6BR-235" source="_CivRj4n2iROgCBlS6BR-12" target="_CivRj4n2iROgCBlS6BR-38">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-244" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="36" y="-1116" width="1698" height="811" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-237" value="" style="group" vertex="1" connectable="0" parent="_CivRj4n2iROgCBlS6BR-244">
+          <mxGeometry y="420" width="150" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="3OuFwvBG6yCisxhikuSK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="_CivRj4n2iROgCBlS6BR-237" source="3OuFwvBG6yCisxhikuSK-2" target="3OuFwvBG6yCisxhikuSK-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OuFwvBG6yCisxhikuSK-14" value="/" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="3OuFwvBG6yCisxhikuSK-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.26" y="1" width="21" height="25" relative="1" as="geometry">
+            <mxPoint x="-10" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OuFwvBG6yCisxhikuSK-2" value="目录结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-237" vertex="1">
+          <mxGeometry y="28" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3OuFwvBG6yCisxhikuSK-12" value="根目录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-237" vertex="1">
+          <mxGeometry x="131" width="19" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-238" value="" style="group" vertex="1" connectable="0" parent="_CivRj4n2iROgCBlS6BR-244">
+          <mxGeometry x="153" width="882" height="811" as="geometry" />
+        </mxCell>
+        <mxCell id="3OuFwvBG6yCisxhikuSK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-238" target="3OuFwvBG6yCisxhikuSK-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="464" as="sourcePoint" />
+            <mxPoint x="147" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-28" value="/lib" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3OuFwvBG6yCisxhikuSK-19" vertex="1" connectable="0">
+          <mxGeometry x="0.7165" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OuFwvBG6yCisxhikuSK-15" value="该目录为系统管理员，也称作超级权限者的用户主目录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="248" y="516" width="306" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3OuFwvBG6yCisxhikuSK-18" value="系统开机所需要最基本的动态连接共享库，其作用类似于Windows里的DLL文件。几乎所有的应用程序都需要&lt;br/&gt;用到这些共享库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="244" y="560" width="593" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-4" value="是Binary的缩写, 这个目录存放着最经常使用的命令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="249" y="615" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-9" value="s就是SuperUser的意思，这里存放的是系统管理员使用的系统管理程序。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="249" y="660" width="405" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-12" value="这个目录一般情况下是空的，当系统非法关机后，这里就存放了一些文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="249" y="729" width="405" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-13" value="存放普通用户的主目录，在Linux中每个用户都有一个自己的目录，一般该目录名是以用户的账号命名, " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" y="691" width="554" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-31" value="所有的系统管理所需要的配置文件和子目录, 比如安装mysql数据库 my.conf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="249" y="476" width="412" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-34" value="这是一个非常重要的目录，用户的很多应用程序和文件都放在这个目录下，类似与windows下的programfiles目录。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="249" y="425" width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-37" value="存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="249" y="330" width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-40" value="[不能动] 这个目录是一个虚拟的目录，它是系统内存的映射，访问这个目录来获取系统信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" y="379" width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-43" value=" [不能动] service 缩写，该目录存放一些服务启动之后需要提取的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="249" y="288" width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-46" value=" 这是linux2.6内核的一个很大的变化。该目录下安装了2.6内核中新出现的一个文件系统 sysfs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" y="246" width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-49" value="这个目录是用来存放一些临时文件的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" y="156" width="405" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-52" value="类似于windows的设备管理器，把所有的硬件用文件的形式存储" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" y="188" width="405" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-53" value="这是给主机额外安装软件所存放的目录。如安装ORACLE数据库就可放到该目录下。默认为空" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="254" y="115" width="511" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-56" value=" linux 系统会自动识别一些设备，例如U盘、光驱等等，当识别后，linux会把识别的设备挂载到这个&lt;br/&gt;目录下" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" y="82" width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-61" value="系统提供该目录是为了让用户临时挂载别的文件系统的，我们可以将外部的存储挂载在/mnt/上，然后进入该目录就" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" y="41" width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-62" value="这个目录中存放着在不断扩充着的东西，习惯将经常被修改的目录放在这个目录下。包括各种日志文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" width="631" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-70" value="SELinux 是一种安全子系统,它能控制程序只能访问特定文件, 有三种工作模式，可以自行设置." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_CivRj4n2iROgCBlS6BR-238" vertex="1">
+          <mxGeometry x="251" y="785" width="511" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-243" value="" style="group" vertex="1" connectable="0" parent="_CivRj4n2iROgCBlS6BR-244">
+          <mxGeometry x="1076" y="425" width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-66" value="这是另一个给主机额外安装软件所安装的目录。一般是通过编译源码方式安装的程序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="_CivRj4n2iROgCBlS6BR-243" vertex="1">
+          <mxGeometry width="622" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="3OuFwvBG6yCisxhikuSK-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-30" value="/root" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-29" vertex="1" connectable="0">
+          <mxGeometry x="0.7985" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-26" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%2Fbin%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22380.0689655172416%22%20y%3D%22-160.9655172413793%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E/&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-25" vertex="1" connectable="0">
+          <mxGeometry x="0.6816" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-27" value="/bin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-25" vertex="1" connectable="0">
+          <mxGeometry x="0.685" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-23" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%2Fsbin%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22412.99021261167604%22%20y%3D%226.0451699945756445%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%2Fsbin%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22412.99021261167604%22%20y%3D%226.0451699945756445%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-22" vertex="1" connectable="0">
+          <mxGeometry x="0.766" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-24" value="/sbin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-22" vertex="1" connectable="0">
+          <mxGeometry x="0.7563" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616.8674568965519" y="368.04256465517255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-18" value="/lost+found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-17" vertex="1" connectable="0">
+          <mxGeometry x="0.8237" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-19" value="/home" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-14" vertex="1" connectable="0">
+          <mxGeometry x="0.7034" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-33" value="/etc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-32" vertex="1" connectable="0">
+          <mxGeometry x="0.6623" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-36" value="/usr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-35" vertex="1" connectable="0">
+          <mxGeometry x="0.6622" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-39" value="/boot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-38" vertex="1" connectable="0">
+          <mxGeometry x="0.7614" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-42" value="/proc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-41" vertex="1" connectable="0">
+          <mxGeometry x="0.6108" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-45" value="/srv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-44" vertex="1" connectable="0">
+          <mxGeometry x="0.8138" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-48" value="/sys" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-47" vertex="1" connectable="0">
+          <mxGeometry x="0.7989" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-51" value="/tmp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-50" vertex="1" connectable="0">
+          <mxGeometry x="0.8544" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-55" value="/dev" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-54" vertex="1" connectable="0">
+          <mxGeometry x="0.7627" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-60" value="/opt " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-59" vertex="1" connectable="0">
+          <mxGeometry x="0.8921" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-58" value="/media" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-57" vertex="1" connectable="0">
+          <mxGeometry x="0.8585" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-65" value="/mnt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-63" vertex="1" connectable="0">
+          <mxGeometry x="0.8572" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-69" value="/var" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-64" vertex="1" connectable="0">
+          <mxGeometry x="0.8649" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_CivRj4n2iROgCBlS6BR-244" source="3OuFwvBG6yCisxhikuSK-12" target="19bWRe63vrNReFquvYGr-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-72" value="/selinux" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-71" vertex="1" connectable="0">
+          <mxGeometry x="0.8652" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_CivRj4n2iROgCBlS6BR-244" source="19bWRe63vrNReFquvYGr-34" target="19bWRe63vrNReFquvYGr-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bWRe63vrNReFquvYGr-68" value="/local" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19bWRe63vrNReFquvYGr-67" vertex="1" connectable="0">
+          <mxGeometry x="-0.094" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
