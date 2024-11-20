@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="第 1 页" id="q6HiDoMOUTd5LAEGEgPX">
-    <mxGraphModel dx="3469" dy="2445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3699" dy="2711" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4757,6 +4757,38 @@
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1419" value="DNS，就是DomainNameSystem的缩写，翻译过来就是域名系统&lt;br/&gt;是互联网上作为域名和IP地址相互映射的一个分布式数据库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-889" y="206" width="361" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1427" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.08;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_CivRj4n2iROgCBlS6BR-1423">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="3935" />
+            </Array>
+            <mxPoint x="54.499999999999545" y="3960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1428" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.91;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="_CivRj4n2iROgCBlS6BR-1423">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="174" y="3935" />
+            </Array>
+            <mxPoint x="174" y="3960.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1429" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.08;entryY=0;rounded=0;" edge="1" parent="1" source="_CivRj4n2iROgCBlS6BR-1424">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="4034" />
+            </Array>
+            <mxPoint x="84.59999999999991" y="4059" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1430" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.93;entryY=0;rounded=0;" edge="1" parent="1" source="_CivRj4n2iROgCBlS6BR-1425">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="174" y="4034" />
+            </Array>
+            <mxPoint x="144.10000000000036" y="4059" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
