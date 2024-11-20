@@ -1303,6 +1303,11 @@
         <mxCell id="_CivRj4n2iROgCBlS6BR-394" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_CivRj4n2iROgCBlS6BR-352" target="_CivRj4n2iROgCBlS6BR-385">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-395" value="运行级别&amp;nbsp; 文件设置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_CivRj4n2iROgCBlS6BR-394">
+          <mxGeometry x="0.4625" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
