@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="第 1 页" id="q6HiDoMOUTd5LAEGEgPX">
-    <mxGraphModel dx="4387" dy="2885" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5273" dy="4330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4824,6 +4824,11 @@
         <mxCell id="_CivRj4n2iROgCBlS6BR-1557" value="" style="group" vertex="1" connectable="0" parent="_CivRj4n2iROgCBlS6BR-1683">
           <mxGeometry width="797" height="786" as="geometry" />
         </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1831" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_CivRj4n2iROgCBlS6BR-1557" source="_CivRj4n2iROgCBlS6BR-1483">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550.1050910949707" y="341.8514575958252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1483" value="日志管理服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;direction=west;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1557">
           <mxGeometry x="598" y="555" width="60" height="30" as="geometry" />
         </mxCell>
@@ -4844,80 +4849,80 @@
         <mxCell id="WtJvPKpndNf4Lo6qMJNH-1" value="日志" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;direction=west;" parent="_CivRj4n2iROgCBlS6BR-1556" vertex="1">
           <mxGeometry x="650" y="291" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_CivRj4n2iROgCBlS6BR-1684" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="_CivRj4n2iROgCBlS6BR-1557" source="WtJvPKpndNf4Lo6qMJNH-1" target="_CivRj4n2iROgCBlS6BR-1483">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_CivRj4n2iROgCBlS6BR-1686" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1557">
-          <mxGeometry y="188" width="614" height="134" as="geometry" />
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1686" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1556">
+          <mxGeometry x="-364" y="185" width="893" height="147" as="geometry" />
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1687" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1686">
-          <mxGeometry width="614" height="45" as="geometry" />
+          <mxGeometry width="893" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1688" value="生成的日志文件格式说明" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=1;colspan=4;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1687">
-          <mxGeometry width="614" height="45" as="geometry">
-            <mxRectangle width="154" height="45" as="alternateBounds" />
+          <mxGeometry width="893" height="49" as="geometry">
+            <mxRectangle width="99" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1689" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="_CivRj4n2iROgCBlS6BR-1687">
-          <mxGeometry x="154" width="153" height="45" as="geometry">
-            <mxRectangle width="153" height="45" as="alternateBounds" />
+          <mxGeometry x="99" width="93" height="49" as="geometry">
+            <mxRectangle width="93" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1690" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="_CivRj4n2iROgCBlS6BR-1687">
-          <mxGeometry x="307" width="154" height="45" as="geometry">
-            <mxRectangle width="154" height="45" as="alternateBounds" />
+          <mxGeometry x="192" width="151" height="49" as="geometry">
+            <mxRectangle width="151" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1691" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="_CivRj4n2iROgCBlS6BR-1687">
-          <mxGeometry x="461" width="153" height="45" as="geometry">
-            <mxRectangle width="153" height="45" as="alternateBounds" />
+          <mxGeometry x="343" width="550" height="49" as="geometry">
+            <mxRectangle width="550" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1692" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1686">
-          <mxGeometry y="45" width="614" height="44" as="geometry" />
+          <mxGeometry y="49" width="893" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_CivRj4n2iROgCBlS6BR-1693" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1692">
-          <mxGeometry width="154" height="44" as="geometry">
-            <mxRectangle width="154" height="44" as="alternateBounds" />
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1693" value="&lt;div&gt;Nov 18 18:00:48&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1692">
+          <mxGeometry width="99" height="49" as="geometry">
+            <mxRectangle width="99" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_CivRj4n2iROgCBlS6BR-1694" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1692">
-          <mxGeometry x="154" width="153" height="44" as="geometry">
-            <mxRectangle width="153" height="44" as="alternateBounds" />
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1694" value="&lt;div&gt;&amp;nbsp;hspEdu01&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1692">
+          <mxGeometry x="99" width="93" height="49" as="geometry">
+            <mxRectangle width="93" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_CivRj4n2iROgCBlS6BR-1695" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1692">
-          <mxGeometry x="307" width="154" height="44" as="geometry">
-            <mxRectangle width="154" height="44" as="alternateBounds" />
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1695" value="sudo:&amp;nbsp; &amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1692">
+          <mxGeometry x="192" width="151" height="49" as="geometry">
+            <mxRectangle width="151" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_CivRj4n2iROgCBlS6BR-1696" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1692">
-          <mxGeometry x="461" width="153" height="44" as="geometry">
-            <mxRectangle width="153" height="44" as="alternateBounds" />
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1696" value="&amp;nbsp;root : TTY=pts/1 ; PWD=/etc/yum.repos.d ; USER=root ; COMMAND=/bin/yum clean all" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1692">
+          <mxGeometry x="343" width="550" height="49" as="geometry">
+            <mxRectangle width="550" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1697" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1686">
-          <mxGeometry y="89" width="614" height="45" as="geometry" />
+          <mxGeometry y="98" width="893" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1698" value="事件产生的时间" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1697">
-          <mxGeometry width="154" height="45" as="geometry">
-            <mxRectangle width="154" height="45" as="alternateBounds" />
+          <mxGeometry width="99" height="49" as="geometry">
+            <mxRectangle width="99" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1699" value="&amp;nbsp;产生事件的服务器的主机名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1697">
-          <mxGeometry x="154" width="153" height="45" as="geometry">
-            <mxRectangle width="153" height="45" as="alternateBounds" />
+          <mxGeometry x="99" width="93" height="49" as="geometry">
+            <mxRectangle width="93" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1700" value="&amp;nbsp;产生事件的服务名或程序名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1697">
-          <mxGeometry x="307" width="154" height="45" as="geometry">
-            <mxRectangle width="154" height="45" as="alternateBounds" />
+          <mxGeometry x="192" width="151" height="49" as="geometry">
+            <mxRectangle width="151" height="49" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1701" value="事件的具体信息" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1697">
-          <mxGeometry x="461" width="153" height="45" as="geometry">
-            <mxRectangle width="153" height="45" as="alternateBounds" />
+          <mxGeometry x="343" width="550" height="49" as="geometry">
+            <mxRectangle width="550" height="49" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_CivRj4n2iROgCBlS6BR-1684" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="_CivRj4n2iROgCBlS6BR-1557" source="WtJvPKpndNf4Lo6qMJNH-1" target="_CivRj4n2iROgCBlS6BR-1483">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_CivRj4n2iROgCBlS6BR-1558" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="_CivRj4n2iROgCBlS6BR-1683">
           <mxGeometry x="3" y="782" width="431" height="688.5282669067383" as="geometry" />
