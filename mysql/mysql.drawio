@@ -1,9 +1,582 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.2">
   <diagram name="第 1 页" id="NXHjUCrowxYx6kOfydZy">
-    <mxGraphModel dx="665" dy="1058" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3020" dy="1519" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6OZyueMYoB322MjxSnSH-1" value="explain" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="278" y="163" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-6" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-32" y="272" width="2908" height="1829.9742751348592" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry width="2908" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-8" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt; id&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry width="242" height="57" as="geometry">
+            <mxRectangle width="242" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-9" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;select_type&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="242" width="244" height="57" as="geometry">
+            <mxRectangle width="244" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-10" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;table&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="486" width="242" height="57" as="geometry">
+            <mxRectangle width="242" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-11" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;partitions&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="728" width="241" height="57" as="geometry">
+            <mxRectangle width="241" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-12" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt; type&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="969" width="242" height="57" as="geometry">
+            <mxRectangle width="242" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-13" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;possible_keys&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="1211" width="244" height="57" as="geometry">
+            <mxRectangle width="244" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-14" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;key&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="1455" width="242" height="57" as="geometry">
+            <mxRectangle width="242" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-15" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;key_len&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="1697" width="242" height="57" as="geometry">
+            <mxRectangle width="242" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-16" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;ref&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="1939" width="241" height="57" as="geometry">
+            <mxRectangle width="241" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-17" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;rows&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="2180" width="244" height="57" as="geometry">
+            <mxRectangle width="244" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-18" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;filtered&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="2424" width="141" height="57" as="geometry">
+            <mxRectangle width="141" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-19" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Extra&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-7">
+          <mxGeometry x="2565" width="343" height="57" as="geometry">
+            <mxRectangle width="343" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry y="57" width="2908" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-21" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px;&quot;&gt;id列的编号是 select 的序列号，有几个 select 就有几个id，并且id的顺序是按 select 出现的顺序增长的。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px;&quot;&gt;id列越大执行优先级越高，id相同则从上往下执行，id为NULL最后执行。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=8;colspan=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry width="242" height="1773" as="geometry">
+            <mxRectangle width="242" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-22" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;simple：简单查询。查询不包含子查询和union&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="242" width="244" height="279" as="geometry">
+            <mxRectangle width="244" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-23" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;这一列表示 explain 的一行正在访问哪个表。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;当 from 子句中有子查询时，table列是&amp;nbsp;&amp;nbsp;格式，表示当前查询依赖 id=N 的查询，于是先执行 id=N 的查询。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;当有 union 时，UNION RESULT 的 table 列的值为，1和2表示参与 union 的 select 行id。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=8;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="486" width="242" height="1773" as="geometry">
+            <mxRectangle width="242" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-24" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;如果查询是基于分区表的话，partitions 字段会显示查询将访问的分区。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=8;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="728" width="241" height="1773" as="geometry">
+            <mxRectangle width="241" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-25" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;这一列表示&lt;span style=&quot;font-weight: bold;&quot;&gt;关联类型或访问类型&lt;/span&gt;，即MySQL决定如何查找表中的行，查找数据行记录的大概范围。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;依次从最优到最差分别为：&lt;span style=&quot;font-weight: bold;&quot;&gt;system &amp;gt; const &amp;gt; eq_ref &amp;gt; ref &amp;gt; range &amp;gt; index &amp;gt; ALL&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;一般来说，&lt;span style=&quot;font-weight: bold;&quot;&gt;得保证查询达到range级别，最好达到ref&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="969" width="242" height="279" as="geometry">
+            <mxRectangle width="242" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-26" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;这一列显示查询可能使用哪些索引来查找。&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;explain 时可能出现 possible_keys 有列，而 key 显示 NULL 的情况，这种情况是因为表中数据不多，mysql认为索引对此查询帮助不大，选择了全表查询。&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;如果该列是NULL，则没有相关的索引。在这种情况下，可以通过检查 where 子句看是否可以创造一个适当的索引来提高查询性能，然后用 explain 查看效果。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=8;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="1211" width="244" height="1773" as="geometry">
+            <mxRectangle width="244" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-27" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;这一列显示mysql实际采用哪个索引来优化对该表的访问。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;如果没有使用索引，则该列是 NULL。如果想强制mysql使用或忽视possible_keys列中的索引，在查询中使用 force index、ignore index。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=8;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="1455" width="242" height="1773" as="geometry">
+            <mxRectangle width="242" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-28" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;这一列显示了mysql在索引里使用的字节数，通过这个值可以算出具体使用了索引中的哪些列。&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;举例来说，film_actor的联合索引 idx_film_actor_id 由 film_id 和 actor_id 两个int列组成，并且每个int是4字节。通过结果中的key_len=4可推断出查询使用了第一个列：film_id列来执行索引查找。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="1697" width="242" height="279" as="geometry">
+            <mxRectangle width="242" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-29" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;这一列显示了在key列记录的索引中，表查找值所用到的列或常量，常见的有：const（常量），字段名（例：film.id）&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=8;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="1939" width="241" height="1773" as="geometry">
+            <mxRectangle width="241" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-30" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;这一列是mysql估计要读取并检测的行数，注意这个不是结果集里的行数。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=8;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="2180" width="244" height="1773" as="geometry">
+            <mxRectangle width="244" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-31" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;该列是一个百分比的值，rows * filtered/100 可以&lt;span style=&quot;font-weight: bold;&quot;&gt;估算&lt;/span&gt;出将要和 explain 中前一个表进行连接的行数（前一个表指 explain 中的id值比当前表id值小的表）。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=8;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="2424" width="141" height="1773" as="geometry">
+            <mxRectangle width="141" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-32" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Using index&lt;/span&gt;：使用覆盖索引 &lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;覆盖索引定义&lt;/span&gt;：mysql执行计划explain结果里的key有使用索引，如果select后面查询的字段都可以从这个索引的树中获取，这种情况一般可以说是用到了覆盖索引，extra里一般都有using&amp;nbsp;index；覆盖索引一般针对的是辅助索引，整个查询结果只通过辅助索引就能拿到结果，不需要通过辅助索引树找到主键，再通过主键去主键索引树里获取其它字段值&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-20">
+          <mxGeometry x="2565" width="343" height="279" as="geometry">
+            <mxRectangle width="343" height="279" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry y="336" width="2908" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-34" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry width="242" height="165" as="geometry">
+            <mxRectangle width="242" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-35" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;primary：复杂查询中最外层的 select&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="242" width="244" height="165" as="geometry">
+            <mxRectangle width="244" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-36" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="486" width="242" height="165" as="geometry">
+            <mxRectangle width="242" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-37" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="728" width="241" height="165" as="geometry">
+            <mxRectangle width="241" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-38" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;NULL&lt;/span&gt;：mysql能够在优化阶段分解查询语句，在执行阶段用不着再访问表或索引。例如：在索引列中选取最小值，可以单独查找索引来完成，不需要在执行时访问表&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="969" width="242" height="165" as="geometry">
+            <mxRectangle width="242" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-39" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="1211" width="244" height="165" as="geometry">
+            <mxRectangle width="244" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-40" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="1455" width="242" height="165" as="geometry">
+            <mxRectangle width="242" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-41" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;key_len计算规则如下：&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;margin:0px;&quot;&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: disc;&quot;&gt;字符串，char(n)和varchar(n)，5.0.3以后版本中，&lt;span style=&quot;font-weight: bold;&quot;&gt;n均代表字符数，而不是字节数，&lt;/span&gt;如果是utf-8，一个数字或字母占1个字节，一个汉字占3个字节&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;margin:0px;&quot;&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;char(n)：如果存汉字长度就是 3n 字节&lt;/li&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;varchar(n)：如果存汉字则长度是 3n + 2 字节，加的2字节用来存储字符串长度，因为varchar是变长字符串&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;margin:0px;&quot; start=&quot;2&quot;&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: disc;&quot;&gt;数值类型&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;margin:0px;&quot;&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;tinyint：1字节&lt;/li&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;smallint：2字节&lt;/li&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;int：4字节&lt;/li&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;bigint：8字节　　&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;margin:0px;&quot; start=&quot;3&quot;&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: disc;&quot;&gt;时间类型　&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;margin:0px;&quot;&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;date：3字节&lt;/li&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;timestamp：4字节&lt;/li&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: circle;&quot;&gt;datetime：8字节&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;margin:0px;&quot; start=&quot;4&quot;&gt;&lt;li style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left; list-style-position: inside; word-break: break-word; background-color: rgba(0, 0, 0, 0); font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; list-style-type: disc;&quot;&gt;如果字段允许为 NULL，需要1字节记录是否为 NULL&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;索引最大长度是768字节，当字符串过长时，mysql会做一个类似左前缀索引的处理，将前半部分的字符提取出来做索引。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=7;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="1697" width="242" height="1494" as="geometry">
+            <mxRectangle width="242" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-42" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="1939" width="241" height="165" as="geometry">
+            <mxRectangle width="241" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-43" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="2180" width="244" height="165" as="geometry">
+            <mxRectangle width="244" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-44" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="2424" width="141" height="165" as="geometry">
+            <mxRectangle width="141" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-45" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Using where&lt;/span&gt;：使用 where 语句来处理结果，并且查询的列未被索引覆盖&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-33">
+          <mxGeometry x="2565" width="343" height="165" as="geometry">
+            <mxRectangle width="343" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry y="501" width="2908" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-47" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry width="242" height="232" as="geometry">
+            <mxRectangle width="242" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-48" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;subquery：包含在 select 中的子查询（不在 from 子句中）&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="242" width="244" height="232" as="geometry">
+            <mxRectangle width="244" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-49" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="486" width="242" height="232" as="geometry">
+            <mxRectangle width="242" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-50" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="728" width="241" height="232" as="geometry">
+            <mxRectangle width="241" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-51" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;const, system&lt;/span&gt;：mysql能对查询的某部分进行优化并将其转化成一个常量（可以看show warnings 的结果）。用于 primary key 或 unique key 的所有列与常数比较时，所以表最多有一个匹配行，读取1次，速度比较快。&lt;span style=&quot;font-weight: bold;&quot;&gt;system是const的特例&lt;/span&gt;，表里只有一条元组匹配时为system&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="969" width="242" height="232" as="geometry">
+            <mxRectangle width="242" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-52" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="1211" width="244" height="232" as="geometry">
+            <mxRectangle width="244" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-53" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="1455" width="242" height="232" as="geometry">
+            <mxRectangle width="242" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-54" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="1697" width="242" height="232" as="geometry">
+            <mxRectangle width="242" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-55" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="1939" width="241" height="232" as="geometry">
+            <mxRectangle width="241" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-56" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="2180" width="244" height="232" as="geometry">
+            <mxRectangle width="244" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-57" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="2424" width="141" height="232" as="geometry">
+            <mxRectangle width="141" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-58" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Using index condition&lt;/span&gt;：查询的列不完全被索引覆盖，where条件中是一个前导列的范围；&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-46">
+          <mxGeometry x="2565" width="343" height="232" as="geometry">
+            <mxRectangle width="343" height="232" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry y="733" width="2908" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-60" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry width="242" height="175" as="geometry">
+            <mxRectangle width="242" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-61" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;derived：包含在 from 子句中的子查询。MySQL会将结果存放在一个临时表中，也称为派生表（derived的英文含义）&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=4;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="242" width="244" height="954" as="geometry">
+            <mxRectangle width="244" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-62" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="486" width="242" height="175" as="geometry">
+            <mxRectangle width="242" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-63" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="728" width="241" height="175" as="geometry">
+            <mxRectangle width="241" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-64" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;eq_ref&lt;/span&gt;：primary key 或 unique key 索引的所有部分被连接使用 ，最多只会返回一条符合条件的记录。这可能是在 const 之外最好的联接类型了，简单的 select 查询不会出现这种 type。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="969" width="242" height="175" as="geometry">
+            <mxRectangle width="242" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-65" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="1211" width="244" height="175" as="geometry">
+            <mxRectangle width="244" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-66" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="1455" width="242" height="175" as="geometry">
+            <mxRectangle width="242" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-67" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="1697" width="242" height="175" as="geometry">
+            <mxRectangle width="242" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-68" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="1939" width="241" height="175" as="geometry">
+            <mxRectangle width="241" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-69" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="2180" width="244" height="175" as="geometry">
+            <mxRectangle width="244" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-70" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="2424" width="141" height="175" as="geometry">
+            <mxRectangle width="141" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-71" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Using temporary&lt;/span&gt;：mysql需要创建一张临时表来处理查询。出现这种情况一般是要进行优化的，首先是想到用索引来优化。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;1. actor.name没有索引，此时创建了张临时表来distinct&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;2. film.name建立了idx_name索引，此时查询时extra是using index,没有用临时表&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-59">
+          <mxGeometry x="2565" width="343" height="175" as="geometry">
+            <mxRectangle width="343" height="175" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry y="908" width="2908" height="344" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-73" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry width="242" height="344" as="geometry">
+            <mxRectangle width="242" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-74" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="242" width="244" height="344" as="geometry">
+            <mxRectangle width="244" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-75" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="486" width="242" height="344" as="geometry">
+            <mxRectangle width="242" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-76" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="728" width="241" height="344" as="geometry">
+            <mxRectangle width="241" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-77" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;ref&lt;/span&gt;：相比&amp;nbsp;eq_ref，不使用唯一索引，而是使用普通索引或者唯一性索引的部分前缀，索引要和某个值相比较，可能会找到多个符合条件的行。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;1. 简单 select 查询，name是普通索引（非唯一索引）&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;2.关联表查询，idx_film_actor_id是film_id和actor_id的联合索引，这里使用到了film_actor的左边前缀film_id部分。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="969" width="242" height="344" as="geometry">
+            <mxRectangle width="242" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-78" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="1211" width="244" height="344" as="geometry">
+            <mxRectangle width="244" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-79" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="1455" width="242" height="344" as="geometry">
+            <mxRectangle width="242" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-80" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="1697" width="242" height="344" as="geometry">
+            <mxRectangle width="242" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-81" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="1939" width="241" height="344" as="geometry">
+            <mxRectangle width="241" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-82" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="2180" width="244" height="344" as="geometry">
+            <mxRectangle width="244" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-83" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="2424" width="141" height="344" as="geometry">
+            <mxRectangle width="141" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-84" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;5）&lt;span style=&quot;font-weight: bold;&quot;&gt;Using filesort&lt;/span&gt;：将用外部排序而不是索引排序，数据较小时从内存排序，否则需要在磁盘完成排序。这种情况下一般也是要考虑使用索引来优化的。&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;1. actor.name未创建索引，会浏览actor整个表，保存排序关键字name和对应的id，然后排序name并检索行记录&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;2. film.name建立了idx_name索引,此时查询时extra是using index&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-72">
+          <mxGeometry x="2565" width="343" height="344" as="geometry">
+            <mxRectangle width="343" height="344" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-85" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry y="1252" width="2908" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-86" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry width="242" height="178" as="geometry">
+            <mxRectangle width="242" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-87" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="242" width="244" height="178" as="geometry">
+            <mxRectangle width="244" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-88" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="486" width="242" height="178" as="geometry">
+            <mxRectangle width="242" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-89" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="728" width="241" height="178" as="geometry">
+            <mxRectangle width="241" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-90" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;range&lt;/span&gt;：范围扫描通常出现在 in(), between ,&amp;gt; ,&amp;lt;, &amp;gt;= 等操作中。使用一个索引来检索给定范围的行。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="969" width="242" height="178" as="geometry">
+            <mxRectangle width="242" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-91" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="1211" width="244" height="178" as="geometry">
+            <mxRectangle width="244" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-92" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="1455" width="242" height="178" as="geometry">
+            <mxRectangle width="242" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-93" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="1697" width="242" height="178" as="geometry">
+            <mxRectangle width="242" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-94" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="1939" width="241" height="178" as="geometry">
+            <mxRectangle width="241" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-95" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="2180" width="244" height="178" as="geometry">
+            <mxRectangle width="244" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-96" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="2424" width="141" height="178" as="geometry">
+            <mxRectangle width="141" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-97" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;6）&lt;span style=&quot;font-weight: bold;&quot;&gt;Select tables optimized away&lt;/span&gt;：使用某些聚合函数（比如 max、min）来访问存在索引的某个字段是&lt;/div&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;1.全值匹配&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;2.最左前缀法则&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;3.不在索引列上做任何操作（计算、函数、（自动or手动）类型转换），会导致索引失效而转向全表扫描&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;4.存储引擎不能使用索引中范围条件右边的列&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;5.尽量使用覆盖索引（只访问索引的查询（索引列包含查询列）），减少 select * 语句&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;6.mysql在使用不等于（！=或者&amp;lt;&amp;gt;），&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-family: Verdana;&quot;&gt;not in ，not exists &lt;/span&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;的时候无法使用索引会导致全表扫描&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold; font-family: Verdana;&quot;&gt;&amp;lt; 小于、 &amp;gt; 大于、 &amp;lt;=、&amp;gt;= 这些，&lt;/span&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;mysql内部优化器会根据检索比例、表大小等多个因素整体评估是否使用索引&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;7.is null,is not null 一般情况下也无法使用索引&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;8.like以通配符开头（&#39;$abc...&#39;）mysql索引失效会变成全表扫描操作&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;9.字符串不加单引号索引失效&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;10.少用or或in，用它查询时，mysql不一定使用索引，mysql内部优化器会根据检索比例、表大小等多个因素整体评估是否使用索引，详见范围查询优化&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;div style=&quot;line-height: 1.75;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;11.范围查询优化&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-language=&quot;java&quot; style=&quot;white-space-collapse: preserve;&quot; data-theme=&quot;okaidia&quot;&gt;              &lt;br&gt;              &lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rowspan=3;colspan=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-85">
+          <mxGeometry x="2565" width="343" height="578" as="geometry">
+            <mxRectangle width="343" height="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-98" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry y="1430" width="2908" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-99" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry width="242" height="257" as="geometry">
+            <mxRectangle width="242" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-100" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="242" width="244" height="257" as="geometry">
+            <mxRectangle width="244" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-101" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="486" width="242" height="257" as="geometry">
+            <mxRectangle width="242" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-102" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="728" width="241" height="257" as="geometry">
+            <mxRectangle width="241" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-103" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;index&lt;/span&gt;：扫描全索引就能拿到结果，一般是扫描某个二级索引，这种扫描不会从索引树根节点开始快速查找，而是直接对二级索引的叶子节点遍历和扫描，速度还是比较慢的，这种查询一般为使用覆盖索引，二级索引一般比较小，所以这种通常比ALL快一些。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="969" width="242" height="257" as="geometry">
+            <mxRectangle width="242" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-104" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="1211" width="244" height="257" as="geometry">
+            <mxRectangle width="244" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-105" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="1455" width="242" height="257" as="geometry">
+            <mxRectangle width="242" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-106" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="1697" width="242" height="257" as="geometry">
+            <mxRectangle width="242" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-107" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="1939" width="241" height="257" as="geometry">
+            <mxRectangle width="241" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-108" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="2180" width="244" height="257" as="geometry">
+            <mxRectangle width="244" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-109" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="2424" width="141" height="257" as="geometry">
+            <mxRectangle width="141" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-110" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-98">
+          <mxGeometry x="2565" width="343" height="257" as="geometry">
+            <mxRectangle width="343" height="257" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-111" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-6">
+          <mxGeometry y="1687" width="2908" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-112" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry width="242" height="143" as="geometry">
+            <mxRectangle width="242" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-113" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;union：在 union 中的第二个和随后的 select&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="242" width="244" height="143" as="geometry">
+            <mxRectangle width="244" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-114" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="486" width="242" height="143" as="geometry">
+            <mxRectangle width="242" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-115" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="728" width="241" height="143" as="geometry">
+            <mxRectangle width="241" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-116" value="&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;ALL&lt;/span&gt;：即全表扫描，扫描你的聚簇索引的所有叶子节点。通常情况下这需要增加索引来进行优化了。&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;verticalAlign=top;" vertex="1" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="969" width="242" height="143" as="geometry">
+            <mxRectangle width="242" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-117" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="1211" width="244" height="143" as="geometry">
+            <mxRectangle width="244" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-118" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="1455" width="242" height="143" as="geometry">
+            <mxRectangle width="242" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-119" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="1697" width="242" height="143" as="geometry">
+            <mxRectangle width="242" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-120" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="1939" width="241" height="143" as="geometry">
+            <mxRectangle width="241" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-121" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="2180" width="244" height="143" as="geometry">
+            <mxRectangle width="244" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-122" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="2424" width="141" height="143" as="geometry">
+            <mxRectangle width="141" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6OZyueMYoB322MjxSnSH-123" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" visible="0" parent="6OZyueMYoB322MjxSnSH-111">
+          <mxGeometry x="2565" width="343" height="143" as="geometry">
+            <mxRectangle width="343" height="143" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
