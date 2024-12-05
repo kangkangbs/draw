@@ -1,69 +1,121 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.1">
   <diagram name="bean的加载流转图" id="14tf_qHpTjpjnr1iD89r">
-    <mxGraphModel dx="2115" dy="1251" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="665" dy="1114" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M_sAFwJD3Y5_pbFiyou--2" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;spring&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="354.5" y="248" width="381" height="169" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="M_sAFwJD3Y5_pbFiyou--4" target="4gjRGnnlG_yjaLN8hZfb-32">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="M_sAFwJD3Y5_pbFiyou--4" target="4gjRGnnlG_yjaLN8hZfb-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M_sAFwJD3Y5_pbFiyou--4" value="解析/扫描" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="171" y="593" width="748" height="660" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-1">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="201.5" y="52" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-1" target="4gjRGnnlG_yjaLN8hZfb-5">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-1" target="4gjRGnnlG_yjaLN8hZfb-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-1" value="xml配置&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;注解配置&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;javaconfig&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="M_sAFwJD3Y5_pbFiyou--4">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-1" value="xml配置&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;注解配置&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;javaconfig&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="M_sAFwJD3Y5_pbFiyou--4" vertex="1">
           <mxGeometry x="3.5" y="29" width="94" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-5" target="4gjRGnnlG_yjaLN8hZfb-12">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-5" target="4gjRGnnlG_yjaLN8hZfb-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-5" value="AnnotationConfigApplicationContext-&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; font-size: 9px; font-weight: 700; white-space-collapse: preserve;&quot;&gt;BeanDefinitionReader&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M_sAFwJD3Y5_pbFiyou--4">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-5" value="AnnotationConfigApplicationContext-&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; font-size: 9px; font-weight: 700; white-space-collapse: preserve;&quot;&gt;BeanDefinitionReader&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="M_sAFwJD3Y5_pbFiyou--4" vertex="1">
           <mxGeometry x="200.5" y="94" width="343.5" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-6" value="ClassPathXmlApplicationContext-Xml&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; font-size: 9px; font-weight: 700; white-space-collapse: preserve;&quot;&gt;BeanDefinitionReader&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M_sAFwJD3Y5_pbFiyou--4">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-6" value="ClassPathXmlApplicationContext-Xml&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;, STXihei; font-size: 9px; font-weight: 700; white-space-collapse: preserve;&quot;&gt;BeanDefinitionReader&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="M_sAFwJD3Y5_pbFiyou--4" vertex="1">
           <mxGeometry x="200.5" y="31" width="343.5" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-12" target="4gjRGnnlG_yjaLN8hZfb-17">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-12" target="4gjRGnnlG_yjaLN8hZfb-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-12" value="invokeBeanFactoryPostProcessors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M_sAFwJD3Y5_pbFiyou--4">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-12" value="invokeBeanFactoryPostProcessors" style="rounded=0;whiteSpace=wrap;html=1;" parent="M_sAFwJD3Y5_pbFiyou--4" vertex="1">
           <mxGeometry x="200.5" y="185" width="343.5" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-28" value="" style="group" vertex="1" connectable="0" parent="M_sAFwJD3Y5_pbFiyou--4">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-28" value="" style="group" parent="M_sAFwJD3Y5_pbFiyou--4" vertex="1" connectable="0">
           <mxGeometry x="207.25" y="274" width="330" height="187" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-28">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="4gjRGnnlG_yjaLN8hZfb-28" vertex="1">
           <mxGeometry width="330" height="187" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-28" source="4gjRGnnlG_yjaLN8hZfb-18" target="4gjRGnnlG_yjaLN8hZfb-20">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4gjRGnnlG_yjaLN8hZfb-28" source="4gjRGnnlG_yjaLN8hZfb-18" target="4gjRGnnlG_yjaLN8hZfb-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-18" value="BeanDefinitionRegistryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-28">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-18" value="BeanDefinitionRegistryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" parent="4gjRGnnlG_yjaLN8hZfb-28" vertex="1">
           <mxGeometry x="37.75" y="12" width="247" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-20" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-28">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-20" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="4gjRGnnlG_yjaLN8hZfb-28" vertex="1">
           <mxGeometry x="37.75" y="108" width="247" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-30" value="ClassPathBeanDefinitionScanner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M_sAFwJD3Y5_pbFiyou--4">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-30" value="ClassPathBeanDefinitionScanner" style="rounded=0;whiteSpace=wrap;html=1;" parent="M_sAFwJD3Y5_pbFiyou--4" vertex="1">
           <mxGeometry x="200.5" y="498" width="343.5" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-17" target="4gjRGnnlG_yjaLN8hZfb-30">
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="M_sAFwJD3Y5_pbFiyou--4" source="4gjRGnnlG_yjaLN8hZfb-17" target="4gjRGnnlG_yjaLN8hZfb-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-32" value="解析/扫描" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="171" y="1336" width="748" height="660" as="geometry" />
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-32" value="生成BeanDefinition" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="171" y="1365" width="748" height="1051" as="geometry" />
         </mxCell>
-        <mxCell id="4gjRGnnlG_yjaLN8hZfb-56" value="绿色：执行&lt;div&gt;黑色：类图&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-32" source="Ly_jW_tWToVT5gzGh2q_-1" target="Ly_jW_tWToVT5gzGh2q_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-1" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;1.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;通过ResourcePatternResolver获得指定包路径下的所有&lt;code style=&quot;&quot; class=&quot;code-inline&quot;&gt;.class&lt;/code&gt;文件（Spring源码中将此文件包装成了Resource对象）&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="13" y="58" width="369" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-32" source="Ly_jW_tWToVT5gzGh2q_-2" target="Ly_jW_tWToVT5gzGh2q_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-5" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;3.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;利用MetadataReaderFactory解析&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ly_jW_tWToVT5gzGh2q_-4">
+          <mxGeometry x="-0.1867" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-2" value="遍历Resource对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="96" y="155" width="203" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-32" source="Ly_jW_tWToVT5gzGh2q_-3" target="Ly_jW_tWToVT5gzGh2q_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-8" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;4.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;利用MetadataReader&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ly_jW_tWToVT5gzGh2q_-7">
+          <mxGeometry x="0.0656" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-3" value="得到&lt;span style=&quot;background-color: initial;&quot;&gt;MetadataReader（在Spring源码中MetadataReaderFactory具体的实现类为CachingMetadataReaderFactory，MetadataReader的具体实现类为SimpleMetadataReader）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="11.129999999999999" y="304" width="370.87" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-32" source="Ly_jW_tWToVT5gzGh2q_-6" target="Ly_jW_tWToVT5gzGh2q_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-6" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;4.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;进行excludeFilters和includeFilters，以及条件注解@Conditional的筛选（条件注解并不能理解：某个类上是否存在@Conditional注解，如果存在则调用注解中所指定的类的match方法进行匹配，匹配成功则通过筛选，匹配失败则pass掉。）&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="11.13" y="485" width="369.94" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-32" source="Ly_jW_tWToVT5gzGh2q_-10" target="Ly_jW_tWToVT5gzGh2q_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-10" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;5.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;基于metadataReader生成ScannedGenericBeanDefinition&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="80.61999999999999" y="664" width="230.95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-32" source="Ly_jW_tWToVT5gzGh2q_-12" target="Ly_jW_tWToVT5gzGh2q_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-12" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;6.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;再基于metadataReader判断是不是对应的类是不是接口或抽象类&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="99.57" y="802" width="194" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-15" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;7.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;如果筛选通过，那么就表示扫描到了一个Bean，将ScannedGenericBeanDefinition加入结果集&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="48.11999999999999" y="940" width="296.9" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-18" value="BeanDefinition" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="404" y="810" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4gjRGnnlG_yjaLN8hZfb-56" value="绿色：执行&lt;div&gt;黑色：类图&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="415.5" y="306" width="259" height="91" as="geometry" />
         </mxCell>
       </root>
