@@ -61,7 +61,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4gjRGnnlG_yjaLN8hZfb-32" value="生成BeanDefinition" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="171" y="1365" width="748" height="1051" as="geometry" />
+          <mxGeometry x="171" y="1365" width="749.5" height="1361" as="geometry" />
         </mxCell>
         <mxCell id="Ly_jW_tWToVT5gzGh2q_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-32" source="Ly_jW_tWToVT5gzGh2q_-1" target="Ly_jW_tWToVT5gzGh2q_-2">
           <mxGeometry relative="1" as="geometry" />
@@ -109,14 +109,49 @@
         <mxCell id="Ly_jW_tWToVT5gzGh2q_-12" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;6.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;再基于metadataReader判断是不是对应的类是不是接口或抽象类&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
           <mxGeometry x="99.57" y="802" width="194" height="103" as="geometry" />
         </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="4gjRGnnlG_yjaLN8hZfb-32" source="Ly_jW_tWToVT5gzGh2q_-15" target="Ly_jW_tWToVT5gzGh2q_-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-35" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap;&quot;&gt;合并BeanDefinition&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ly_jW_tWToVT5gzGh2q_-34">
+          <mxGeometry x="-0.2271" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ly_jW_tWToVT5gzGh2q_-15" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;order&amp;quot;:1,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;},&amp;quot;list_item&amp;quot;,{&amp;quot;label&amp;quot;:&amp;quot;7.&amp;quot;,&amp;quot;listType&amp;quot;:&amp;quot;ordered&amp;quot;,&amp;quot;spread&amp;quot;:&amp;quot;false&amp;quot;}]&quot; class=&quot;paragraph&quot;&gt;如果筛选通过，那么就表示扫描到了一个Bean，将ScannedGenericBeanDefinition加入结果集&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
           <mxGeometry x="48.11999999999999" y="940" width="296.9" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="Ly_jW_tWToVT5gzGh2q_-18" value="BeanDefinition" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
-          <mxGeometry x="404" y="810" width="200" height="200" as="geometry" />
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-33" value="&lt;p data-pm-slice=&quot;1 1 []&quot; class=&quot;paragraph&quot;&gt;通过扫描得到所有BeanDefinition之后，就可以根据BeanDefinition创建Bean对象了，但是在Spring中支持父子BeanDefinition，和Java父子类类似，但是完全不是一回事。&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gjRGnnlG_yjaLN8hZfb-32">
+          <mxGeometry x="36.62" y="1100" width="318.95" height="134" as="geometry" />
         </mxCell>
         <mxCell id="4gjRGnnlG_yjaLN8hZfb-56" value="绿色：执行&lt;div&gt;黑色：类图&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="415.5" y="306" width="259" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-24" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;BeanDefinition&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="571" y="1909" width="341" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-25" value="&lt;article style=&quot;&quot; data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;uyH1-1713439989352&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;list-item&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;version&amp;quot;:1,&amp;quot;listType&amp;quot;:&amp;quot;unordered&amp;quot;,&amp;quot;listId&amp;quot;:&amp;quot;nY0f-1713439989787&amp;quot;,&amp;quot;listLevel&amp;quot;:1},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;abdO-1713439989351&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;class，表示Bean类型&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;ec0N-1733403170866&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;paragraph&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;abdO-1713439989351&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;表示Bean类型&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}]&quot;&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px;&quot;&gt;class,  表示Bean类型&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;/article&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ly_jW_tWToVT5gzGh2q_-24">
+          <mxGeometry y="30" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-26" value="scope&lt;span style=&quot;font-size: 14px; white-space-collapse: preserve; background-color: initial;&quot;&gt;，表示Bean作用域，单例或原型等&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ly_jW_tWToVT5gzGh2q_-24">
+          <mxGeometry y="60" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-27" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;tqEb-1733403220494&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;paragraph&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;Wjzr-1713439989357&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;nitMethodName：表示Bean初始化时要执行的方法&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}]&quot;&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px;&quot;&gt;initMethodName：表示Bean初始化时要执行的方法&lt;/div&gt;&lt;/article&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ly_jW_tWToVT5gzGh2q_-24">
+          <mxGeometry y="90" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-32" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;LqSF-1733403256993&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;paragraph&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;iMSd-1713439989355&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;azyInit：表示Bean是否是懒加载&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}]&quot;&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px;&quot;&gt;lazyInit：表示Bean是否是懒加载&lt;/div&gt;&lt;/article&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ly_jW_tWToVT5gzGh2q_-24">
+          <mxGeometry y="120" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-31" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;yfWz-1733403272943&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;paragraph&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;0Pin-1713439989359&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;estroyMethodName：表示Bean销毁时要执行的方法&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}]&quot;&gt;&lt;div style=&quot;white-space-collapse: preserve; line-height: 1.75; font-size: 14px;&quot;&gt;destroyMethodName：表示Bean销毁时要执行的方法&lt;/div&gt;&lt;/article&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ly_jW_tWToVT5gzGh2q_-24">
+          <mxGeometry y="150" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-30" value=".....还有很多" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ly_jW_tWToVT5gzGh2q_-24">
+          <mxGeometry y="180" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ly_jW_tWToVT5gzGh2q_-24">
+          <mxGeometry y="210" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly_jW_tWToVT5gzGh2q_-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ly_jW_tWToVT5gzGh2q_-24">
+          <mxGeometry y="240" width="341" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
