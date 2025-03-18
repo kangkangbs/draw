@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="zI-GEJcVa0QLz6d-LR4Y">
-    <mxGraphModel dx="150" dy="950" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1163" dy="954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -422,14 +422,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sWnjlbS8qjmlmMA9JyFx-94" target="sWnjlbS8qjmlmMA9JyFx-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-94" value="登录成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="834" y="2699" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sWnjlbS8qjmlmMA9JyFx-95" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="844" y="2789" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sWnjlbS8qjmlmMA9JyFx-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sWnjlbS8qjmlmMA9JyFx-94" target="sWnjlbS8qjmlmMA9JyFx-95">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sWnjlbS8qjmlmMA9JyFx-98" target="sWnjlbS8qjmlmMA9JyFx-82">
           <mxGeometry relative="1" as="geometry">
@@ -450,6 +447,15 @@
         </mxCell>
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-99" value="报错不合法性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="2381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sWnjlbS8qjmlmMA9JyFx-109" target="sWnjlbS8qjmlmMA9JyFx-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-109" value="浏览" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="834" y="2798" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-111" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="844" y="2889" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
