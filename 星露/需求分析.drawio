@@ -639,7 +639,7 @@
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-187" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;产品名称&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="853" y="4577" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sWnjlbS8qjmlmMA9JyFx-188" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;产品买点&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-188" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;产品卖点&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="4490" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-189" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;会员昵称&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
