@@ -924,6 +924,9 @@
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-257" value="配送公司" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3242" y="4921" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-258" value="物流单号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3386" y="4886" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
