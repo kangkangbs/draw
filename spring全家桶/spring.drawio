@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.13" pages="2">
   <diagram name="bean的加载流转图" id="14tf_qHpTjpjnr1iD89r">
     <mxGraphModel dx="2107" dy="3527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,6 +164,30 @@
         </mxCell>
         <mxCell id="Ly_jW_tWToVT5gzGh2q_-44" value="初始化" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="119" y="5373" width="852" height="696" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wiZ4toWBo5HM_qX_Efiw" name="图元数据">
+    <mxGraphModel dx="354" dy="209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oA2t69D-gdRoxiJPTGih-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="oA2t69D-gdRoxiJPTGih-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA2t69D-gdRoxiJPTGih-54" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oA2t69D-gdRoxiJPTGih-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oA2t69D-gdRoxiJPTGih-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA2t69D-gdRoxiJPTGih-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
