@@ -169,7 +169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wiZ4toWBo5HM_qX_Efiw" name="图元数据">
-    <mxGraphModel dx="735" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="499" dy="294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -236,6 +236,30 @@
         </mxCell>
         <mxCell id="oA2t69D-gdRoxiJPTGih-78" value="其他" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="345" y="405" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oA2t69D-gdRoxiJPTGih-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oA2t69D-gdRoxiJPTGih-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA2t69D-gdRoxiJPTGih-81" value="表示进入方法内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oA2t69D-gdRoxiJPTGih-80">
+          <mxGeometry x="-0.4165" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA2t69D-gdRoxiJPTGih-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.021;exitY=0.49;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oA2t69D-gdRoxiJPTGih-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="90.97" as="targetPoint" />
+            <mxPoint x="220" y="90.97925925925924" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA2t69D-gdRoxiJPTGih-84" value="表示平级" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oA2t69D-gdRoxiJPTGih-82">
+          <mxGeometry x="-0.3223" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA2t69D-gdRoxiJPTGih-79" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="62.5" width="110" height="57.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
