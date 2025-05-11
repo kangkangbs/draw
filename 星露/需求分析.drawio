@@ -1380,25 +1380,31 @@
           <mxGeometry x="1581" y="2653" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="1353" y="-865" width="191" height="436" as="geometry" />
+          <mxGeometry x="1368" y="-865" width="173" height="434" as="geometry" />
         </mxCell>
-        <mxCell id="gOdagmnH9e_jZeE90ebJ-80" value="浏览商品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="1367" y="-793" width="177" height="30" as="geometry" />
+        <mxCell id="BajJUVD-t5RbK1amALkx-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOdagmnH9e_jZeE90ebJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1686" y="-568" as="sourcePoint" />
+            <mxPoint x="1366.9999999999995" y="-778" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="BajJUVD-t5RbK1amALkx-1" value="加入购物车" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1364" y="-676" width="177" height="30" as="geometry" />
+        <mxCell id="BajJUVD-t5RbK1amALkx-8" value="浏览商品" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1773" y="-811" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BajJUVD-t5RbK1amALkx-2" value="购物" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1364" y="-619" width="177" height="30" as="geometry" />
+        <mxCell id="BajJUVD-t5RbK1amALkx-9" value="&lt;span style=&quot;font-family: 宋体; font-size: 19px;&quot;&gt;搜索商品&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1751" y="-688" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BajJUVD-t5RbK1amALkx-3" value="查看订单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1368" y="-565" width="177" height="30" as="geometry" />
+        <mxCell id="BajJUVD-t5RbK1amALkx-10" value="&lt;span style=&quot;font-family: 宋体; font-size: 19px;&quot;&gt;加入购物车&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1773" y="-519" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BajJUVD-t5RbK1amALkx-4" value="查看商品分类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1369" y="-510" width="177" height="30" as="geometry" />
+        <mxCell id="BajJUVD-t5RbK1amALkx-11" value="&lt;span style=&quot;font-family: 宋体; font-size: 19px;&quot;&gt;查看订单&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1773" y="-423" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BajJUVD-t5RbK1amALkx-5" value="搜索商品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1369" y="-731" width="177" height="30" as="geometry" />
+        <mxCell id="BajJUVD-t5RbK1amALkx-12" value="&lt;span style=&quot;font-family: 宋体; font-size: 19px;&quot;&gt;购物&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1553" y="-395" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BajJUVD-t5RbK1amALkx-13" value="&lt;span style=&quot;font-family: 宋体; font-size: 19px;&quot;&gt;查看商品分类&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2022" y="-426" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
