@@ -1232,16 +1232,8 @@
         <mxCell id="gOdagmnH9e_jZeE90ebJ-8" value="资源服务器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1558" y="2796" width="207" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="gOdagmnH9e_jZeE90ebJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=17;" edge="1" parent="1" source="gOdagmnH9e_jZeE90ebJ-68" target="gOdagmnH9e_jZeE90ebJ-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1744" y="2505" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1819" y="2258" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-11" value="" style="group;fontFamily=宋体;fontSize=17;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1839" y="2123" width="120" height="180" as="geometry" />
+          <mxGeometry x="1844" y="2221" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;fontSize=17;" edge="1" parent="gOdagmnH9e_jZeE90ebJ-11" source="gOdagmnH9e_jZeE90ebJ-3" target="gOdagmnH9e_jZeE90ebJ-5">
           <mxGeometry relative="1" as="geometry" />
@@ -1277,7 +1269,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-34" value="" style="group;fontFamily=宋体;fontSize=17;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1882" y="2381" width="687.75" height="624" as="geometry" />
+          <mxGeometry x="1883" y="2381" width="687.75" height="624" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-7" value="授权服务器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="gOdagmnH9e_jZeE90ebJ-34">
           <mxGeometry x="223" y="319" width="403" height="64" as="geometry" />
@@ -1289,7 +1281,7 @@
           <mxGeometry x="59" y="-1" width="534" height="255" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-6" value="网关" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="gOdagmnH9e_jZeE90ebJ-19">
-          <mxGeometry x="24" width="357" height="55" as="geometry" />
+          <mxGeometry x="24" y="27" width="357" height="55" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-12" value="&lt;font&gt;是否是验证授权&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=宋体;fontSize=17;spacing=12;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=13;fontStyle=0;textDirection=rtl;" vertex="1" parent="gOdagmnH9e_jZeE90ebJ-19">
           <mxGeometry x="214.25" y="141" width="105.5" height="114" as="geometry" />
@@ -1364,6 +1356,9 @@
           <mxGeometry x="-0.7861" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOdagmnH9e_jZeE90ebJ-68" target="gOdagmnH9e_jZeE90ebJ-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-68" value="返回Token信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1757" y="2717" width="120" height="60" as="geometry" />
