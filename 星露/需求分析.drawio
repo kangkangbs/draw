@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="zI-GEJcVa0QLz6d-LR4Y">
-    <mxGraphModel dx="2171" dy="1639" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2464" dy="1819" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1225,6 +1225,24 @@
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="987" y="-234" width="74" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;开始&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1678" y="2152" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-4" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;结束&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1709.5" y="2889" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-5" value="输入用户名密码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="2263" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-6" value="网关" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="2398" width="534" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-7" value="授权服务器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1751" y="2591" width="403" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-8" value="资源服务器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1247" y="2593" width="425" height="288" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
