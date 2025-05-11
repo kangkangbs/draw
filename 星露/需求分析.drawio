@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="zI-GEJcVa0QLz6d-LR4Y">
-    <mxGraphModel dx="1813" dy="1820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1965" dy="1913" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8410,6 +8410,46 @@
               <mxPoint x="7209" y="8729" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-1" value="&lt;font&gt;用户&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1113" y="6522" width="124" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-2" value="&lt;font&gt;促销&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="6949" width="124" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-4" value="商品" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1117" y="6684" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-5" value="订单" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1409" y="6684" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-12" value="" style="group;spacing=2;strokeWidth=4;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1097.5" y="6812" width="159" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-8" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rotation=-180;" vertex="1" parent="RtzJb5Kk38jt_D3seT6Z-12">
+          <mxGeometry width="159" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-10" value="拥有" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;fontSize=23;" vertex="1" parent="RtzJb5Kk38jt_D3seT6Z-12">
+          <mxGeometry x="53" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="RtzJb5Kk38jt_D3seT6Z-4" target="RtzJb5Kk38jt_D3seT6Z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-16" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RtzJb5Kk38jt_D3seT6Z-14">
+          <mxGeometry x="-0.213" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="RtzJb5Kk38jt_D3seT6Z-8" target="RtzJb5Kk38jt_D3seT6Z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-17" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RtzJb5Kk38jt_D3seT6Z-15">
+          <mxGeometry x="-0.1004" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtzJb5Kk38jt_D3seT6Z-18" value="购物车" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1406" y="6522" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
