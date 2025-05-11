@@ -1230,7 +1230,7 @@
           <mxGeometry x="1695" y="3063" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-8" value="资源服务器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="2704" width="329" height="100" as="geometry" />
+          <mxGeometry x="1480.5" y="2709" width="329" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gOdagmnH9e_jZeE90ebJ-9" target="gOdagmnH9e_jZeE90ebJ-5">
           <mxGeometry relative="1" as="geometry">
@@ -1255,7 +1255,7 @@
           <mxGeometry y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-13" value="&lt;font&gt;验证Token正确是否&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=宋体;fontSize=17;spacing=12;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=13;fontStyle=0;textDirection=rtl;" vertex="1" parent="1">
-          <mxGeometry x="1646" y="2399" width="105.5" height="114" as="geometry" />
+          <mxGeometry x="1680.25" y="2502" width="105.5" height="114" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gOdagmnH9e_jZeE90ebJ-5" target="gOdagmnH9e_jZeE90ebJ-6">
           <mxGeometry relative="1" as="geometry" />
@@ -1283,21 +1283,21 @@
           <mxGeometry x="365" y="439" width="107" height="114" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-19" value="" style="group" vertex="1" connectable="0" parent="gOdagmnH9e_jZeE90ebJ-34">
-          <mxGeometry width="534" height="255" as="geometry" />
+          <mxGeometry x="59" y="-1" width="534" height="255" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-6" value="网关" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=17;textDirection=ltr;spacing=2;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=8;fontStyle=0;strokeWidth=1;" vertex="1" parent="gOdagmnH9e_jZeE90ebJ-19">
-          <mxGeometry width="534" height="93" as="geometry" />
-        </mxCell>
-        <mxCell id="gOdagmnH9e_jZeE90ebJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gOdagmnH9e_jZeE90ebJ-19" source="gOdagmnH9e_jZeE90ebJ-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="267" y="61" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="24" width="510" height="93" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-12" value="&lt;font&gt;是否是验证授权&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=宋体;fontSize=17;spacing=12;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=13;fontStyle=0;textDirection=rtl;" vertex="1" parent="gOdagmnH9e_jZeE90ebJ-19">
           <mxGeometry x="214.25" y="141" width="105.5" height="114" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gOdagmnH9e_jZeE90ebJ-19" source="gOdagmnH9e_jZeE90ebJ-6" target="gOdagmnH9e_jZeE90ebJ-12">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="267" y="104" />
+              <mxPoint x="267" y="104" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gOdagmnH9e_jZeE90ebJ-34" source="gOdagmnH9e_jZeE90ebJ-12" target="gOdagmnH9e_jZeE90ebJ-7">
           <mxGeometry relative="1" as="geometry">
@@ -1322,6 +1322,9 @@
               <mxPoint x="418" y="408" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gOdagmnH9e_jZeE90ebJ-6" target="gOdagmnH9e_jZeE90ebJ-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
