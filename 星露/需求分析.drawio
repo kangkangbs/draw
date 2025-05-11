@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="zI-GEJcVa0QLz6d-LR4Y">
-    <mxGraphModel dx="3130" dy="1426" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2171" dy="1639" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1094,7 +1094,7 @@
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-34" value="&lt;font&gt;营销&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=40;fontFamily=宋体;spacingTop=0;verticalAlign=middle;" parent="UaNQIwwVvp3sxHOzKASK-3" vertex="1">
           <mxGeometry x="1036" y="213" width="58" height="252" as="geometry" />
         </mxCell>
-        <mxCell id="C-UNbQprGfdAuU9nsIS7-14" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="C-UNbQprGfdAuU9nsIS7-14" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="413" y="967" width="603" height="817" as="geometry" />
         </mxCell>
         <mxCell id="hcImnVjKcQZzbwt4MmkP-2" value="" style="group" parent="C-UNbQprGfdAuU9nsIS7-14" vertex="1" connectable="0">
@@ -1219,6 +1219,12 @@
               <mxPoint x="499" y="179" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="815" y="-614" width="655" height="655" as="geometry" />
+        </mxCell>
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="987" y="-234" width="74" height="116" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
