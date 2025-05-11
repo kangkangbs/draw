@@ -1321,7 +1321,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gOdagmnH9e_jZeE90ebJ-64" value="" style="group;fontFamily=宋体;fontSize=17;" vertex="1" connectable="0" parent="gOdagmnH9e_jZeE90ebJ-34">
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-64" value="" style="group;fontFamily=宋体;fontSize=17;strokeWidth=1;" vertex="1" connectable="0" parent="gOdagmnH9e_jZeE90ebJ-34">
           <mxGeometry x="247" y="511" width="140" height="119" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=宋体;fontSize=17;" edge="1" parent="gOdagmnH9e_jZeE90ebJ-64" source="gOdagmnH9e_jZeE90ebJ-7" target="gOdagmnH9e_jZeE90ebJ-22">
@@ -1337,7 +1337,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gOdagmnH9e_jZeE90ebJ-22" value="数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=宋体;fontSize=17;" vertex="1" parent="gOdagmnH9e_jZeE90ebJ-64">
+        <mxCell id="gOdagmnH9e_jZeE90ebJ-22" value="数据库" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=宋体;fontSize=17;" vertex="1" parent="gOdagmnH9e_jZeE90ebJ-64">
           <mxGeometry y="13" width="140" height="106" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=宋体;fontSize=17;" edge="1" parent="1" source="gOdagmnH9e_jZeE90ebJ-8" target="gOdagmnH9e_jZeE90ebJ-4">
