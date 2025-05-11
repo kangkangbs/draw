@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="zI-GEJcVa0QLz6d-LR4Y">
-    <mxGraphModel dx="4129" dy="3237" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1813" dy="1820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -586,13 +586,13 @@
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-249" value="运费" style="ellipse;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" parent="1" vertex="1">
           <mxGeometry x="3614" y="5018" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sWnjlbS8qjmlmMA9JyFx-250" value="促销优化金额" style="ellipse;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" parent="1" vertex="1">
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-250" value="促销优化金额" style="ellipse;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;spacingTop=14;" parent="1" vertex="1">
           <mxGeometry x="3503" y="5062" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sWnjlbS8qjmlmMA9JyFx-251" value="积分抵扣金额" style="ellipse;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" parent="1" vertex="1">
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-251" value="积分抵扣金额" style="ellipse;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;spacingTop=10;" parent="1" vertex="1">
           <mxGeometry x="3378" y="5066" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sWnjlbS8qjmlmMA9JyFx-252" value="消费卷抵扣金额" style="ellipse;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" parent="1" vertex="1">
+        <mxCell id="sWnjlbS8qjmlmMA9JyFx-252" value="消费卷抵扣金额" style="ellipse;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;spacingTop=9;" parent="1" vertex="1">
           <mxGeometry x="3130" y="5031" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sWnjlbS8qjmlmMA9JyFx-253" value="支付信息" style="ellipse;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=23;" parent="1" vertex="1">
