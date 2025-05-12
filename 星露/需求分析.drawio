@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="zI-GEJcVa0QLz6d-LR4Y">
-    <mxGraphModel dx="2464" dy="2219" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2171" dy="2039" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1261,7 +1261,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-13" value="&lt;font&gt;验证Token正确是否&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=宋体;fontSize=23;spacing=12;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=1;fontStyle=0;textDirection=rtl;" parent="1" vertex="1">
-          <mxGeometry x="1680.13" y="2503" width="105.75" height="142" as="geometry" />
+          <mxGeometry x="1680.13" y="2503" width="125.87" height="142" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;fontSize=23;" parent="1" source="gOdagmnH9e_jZeE90ebJ-5" target="gOdagmnH9e_jZeE90ebJ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1282,7 +1282,7 @@
           <mxGeometry x="24" y="27" width="357" height="55" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-12" value="&lt;font&gt;是否是验证授权&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=宋体;fontSize=23;spacing=12;spacingRight=0;spacingBottom=0;spacingLeft=0;spacingTop=13;fontStyle=0;textDirection=rtl;" parent="gOdagmnH9e_jZeE90ebJ-19" vertex="1">
-          <mxGeometry x="214.25" y="141" width="105.5" height="114" as="geometry" />
+          <mxGeometry x="201" y="141" width="118.75" height="114" as="geometry" />
         </mxCell>
         <mxCell id="gOdagmnH9e_jZeE90ebJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;fontSize=23;" parent="gOdagmnH9e_jZeE90ebJ-19" source="gOdagmnH9e_jZeE90ebJ-6" target="gOdagmnH9e_jZeE90ebJ-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1346,7 +1346,7 @@
             <Array as="points">
               <mxPoint x="2124" y="2578" />
               <mxPoint x="2124" y="2482" />
-              <mxPoint x="1733" y="2482" />
+              <mxPoint x="1743" y="2482" />
             </Array>
           </mxGeometry>
         </mxCell>
