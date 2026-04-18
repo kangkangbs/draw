@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="rPVgH9IPBLTDSSA8fq3x">
-    <mxGraphModel dx="2229" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1824" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -565,6 +565,9 @@
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-252" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="进行绑定处理当前G" vertex="1">
           <mxGeometry height="60" width="120" x="2062.5" y="1171.57" as="geometry" />
+        </mxCell>
+        <mxCell id="85t-WSjwfzRYeK0zHOW4-256" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第一章总结" vertex="1">
+          <mxGeometry height="60" width="120" x="1150" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
