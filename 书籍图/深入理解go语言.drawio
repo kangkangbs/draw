@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="rPVgH9IPBLTDSSA8fq3x">
-    <mxGraphModel dx="1824" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1294" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,7 +224,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-115" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="480" width="790" x="229" y="420" as="geometry" />
+          <mxGeometry height="480" width="790" x="240" y="398.43" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-117" parent="85t-WSjwfzRYeK0zHOW4-115" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=7;" value="G1开辟过多G" vertex="1">
           <mxGeometry height="39.42857142857143" width="60" x="100" as="geometry" />
@@ -293,7 +293,7 @@
         <mxCell id="85t-WSjwfzRYeK0zHOW4-148" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="本地队列已满" vertex="1">
           <mxGeometry height="64.14" width="89" x="845" y="211.72" as="geometry" />
         </mxCell>
-        <mxCell id="85t-WSjwfzRYeK0zHOW4-150" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="G2创建G7" vertex="1">
+        <mxCell id="85t-WSjwfzRYeK0zHOW4-150" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="G创建new G" vertex="1">
           <mxGeometry height="48.43" width="99" x="840" y="120" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-151" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" target="85t-WSjwfzRYeK0zHOW4-148">
@@ -363,12 +363,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-173" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;全局队列是否有G&lt;/font&gt;" vertex="1">
-          <mxGeometry height="80" width="99.5" x="1225.25" y="470" as="geometry" />
+          <mxGeometry height="80" width="99.5" x="944.75" y="480" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-175" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="窃取n个&lt;div&gt;（&lt;/div&gt;&lt;div&gt;n=min(len(GQ)/GOMAXPROCS+1,cap(LQ)/2)&lt;/div&gt;&lt;div&gt;GQ:全局队列&lt;br&gt;&lt;/div&gt;&lt;div&gt;LQ:本地队列&lt;/div&gt;&lt;div&gt;GOMAXPROCS：P的数量&lt;/div&gt;&lt;div&gt;）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="335" x="1107.5" y="600" as="geometry" />
+          <mxGeometry height="110" width="335" x="827" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="85t-WSjwfzRYeK0zHOW4-190" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="85t-WSjwfzRYeK0zHOW4-189" value="yes">
+        <mxCell id="85t-WSjwfzRYeK0zHOW4-190" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="85t-WSjwfzRYeK0zHOW4-189" value="yes">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1500" y="509.9999999999998" as="sourcePoint" />
           </mxGeometry>
@@ -377,7 +377,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-189" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="从其他p的本地队列窃取一半G（向下取整）&lt;div&gt;交由G0调度&lt;/div&gt;" vertex="1">
-          <mxGeometry height="48.43" width="130" x="1680" y="485.78" as="geometry" />
+          <mxGeometry height="48.43" width="130" x="1390" y="520" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-191" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;其他p的&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;本地&lt;/font&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;队列&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;是否有G&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="110" x="1442.5" y="384.21999999999997" as="geometry" />
@@ -418,7 +418,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-199" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="G运行时&lt;div&gt;发生阻塞&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="1705" y="598.4250000000001" as="geometry" />
+          <mxGeometry height="80" width="80" x="1415" y="632.6450000000001" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-208" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85t-WSjwfzRYeK0zHOW4-207" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -427,13 +427,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-201" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="当前绑定的M和P立即解绑 M线程进行阻塞操作" vertex="1">
-          <mxGeometry height="60" width="120" x="1685" y="768.4250000000001" as="geometry" />
+          <mxGeometry height="60" width="120" x="1395" y="802.6450000000001" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-232" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85t-WSjwfzRYeK0zHOW4-231" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-203" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="G执行" vertex="1">
-          <mxGeometry height="60" width="120" x="1845" y="608.4250000000001" as="geometry" />
+          <mxGeometry height="60" width="120" x="1555" y="642.6450000000001" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-219" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="85t-WSjwfzRYeK0zHOW4-218">
           <mxGeometry relative="1" as="geometry" />
@@ -445,17 +445,17 @@
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-227" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.019;entryY=0.337;entryDx=0;entryDy=0;entryPerimeter=0;" target="85t-WSjwfzRYeK0zHOW4-228">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1880" y="950.7849999999999" as="targetPoint" />
+            <mxPoint x="1590" y="985.0049999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-207" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="p对应的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;本地队&lt;/span&gt;&lt;div&gt;列有G或&lt;/div&gt;&lt;div&gt;全局队列有G&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="101.57" width="131.25" x="1678.75" y="900" as="geometry" />
+          <mxGeometry height="101.57" width="131.25" x="1388.75" y="934.22" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-209" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="与空闲M绑定执行G" vertex="1">
-          <mxGeometry height="60" width="120" x="1360" y="1029.9950000000001" as="geometry" />
+          <mxGeometry height="60" width="120" x="1070" y="1064.2150000000001" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-215" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="创建一个M进行绑定&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1496.25" y="1030" as="geometry" />
+          <mxGeometry height="60" width="120" x="1206.25" y="1064.22" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-224" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85t-WSjwfzRYeK0zHOW4-215" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -466,10 +466,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-217" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rhombus%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3BabsoluteArcSize%3D1%3BarcSize%3D14%3BstrokeWidth%3D2%3B%22%20value%3D%22p%E5%AF%B9%E5%BA%94%E7%9A%84%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(rgb(0%2C%200%2C%200)%2C%20rgb(255%2C%20255%2C%20255))%3B%26quot%3B%26gt%3B%E6%9C%AC%E5%9C%B0%E9%98%9F%26lt%3B%2Fspan%26gt%3B%26lt%3Bdiv%26gt%3B%E5%88%97%E6%9C%89G%E6%88%96%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%E5%85%A8%E5%B1%80%E9%98%9F%E5%88%97%E6%9C%89G%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22101.57%22%20width%3D%22132.5%22%20x%3D%221678.75%22%20y%3D%22900%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="101.57" width="132.5" x="1490" y="900" as="geometry" />
+          <mxGeometry height="101.57" width="132.5" x="1200" y="934.22" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-218" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: center;&quot;&gt;并且有空闲M&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="1520" y="930.78" as="geometry" />
+          <mxGeometry height="40" width="100" x="1230" y="965" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-221" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="85t-WSjwfzRYeK0zHOW4-209">
           <mxGeometry relative="1" as="geometry" />
@@ -480,10 +480,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-228" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="p进入P空闲列表，等待M获取可用的p" vertex="1">
-          <mxGeometry height="60" width="120" x="1880" y="930.78" as="geometry" />
+          <mxGeometry height="60" width="120" x="1590" y="965" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-229" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="解绑后的M会记住解绑前的P" vertex="1">
-          <mxGeometry height="71.57" width="190" x="1878" y="762.64" as="geometry" />
+          <mxGeometry height="71.57" width="190" x="1588" y="796.86" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-234" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85t-WSjwfzRYeK0zHOW4-233" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -502,16 +502,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-231" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="是否发生过解绑行为" vertex="1">
-          <mxGeometry height="81.57" width="115" x="2065" y="598.43" as="geometry" />
+          <mxGeometry height="81.57" width="115" x="1775" y="632.65" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-233" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="通过绑定的M处理G" vertex="1">
-          <mxGeometry height="60" width="120" x="2257.5" y="609.2149999999999" as="geometry" />
+          <mxGeometry height="60" width="120" x="1967.5" y="643.435" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-240" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85t-WSjwfzRYeK0zHOW4-239" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-235" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="寻找之前的P 进行绑定" vertex="1">
-          <mxGeometry height="60" width="120" x="2062.5" y="710.005" as="geometry" />
+          <mxGeometry height="60" width="120" x="1772.5" y="744.225" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-243" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85t-WSjwfzRYeK0zHOW4-242" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -530,16 +530,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-239" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="之前的P已经有绑定" vertex="1">
-          <mxGeometry height="80" width="117.5" x="2063.75" y="800" as="geometry" />
+          <mxGeometry height="80" width="117.5" x="1773.75" y="834.22" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-242" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="进行绑定G" vertex="1">
-          <mxGeometry height="60" width="120" x="2260" y="810" as="geometry" />
+          <mxGeometry height="60" width="120" x="1970" y="844.22" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-249" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85t-WSjwfzRYeK0zHOW4-248" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-245" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="在P空闲列表，寻找可用的P" vertex="1">
-          <mxGeometry height="60" width="120" x="2062.5" y="920.78" as="geometry" />
+          <mxGeometry height="60" width="120" x="1772.5" y="955" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-251" edge="1" parent="1" source="85t-WSjwfzRYeK0zHOW4-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="85t-WSjwfzRYeK0zHOW4-250" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -558,13 +558,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-248" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="找到" vertex="1">
-          <mxGeometry height="80" width="80" x="2082.5" y="1001.5699999999999" as="geometry" />
+          <mxGeometry height="80" width="80" x="1792.5" y="1035.79" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-250" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="将当前G标记为可运行状态&lt;div&gt;并加入全局队列&lt;/div&gt;&lt;div&gt;M进行休眠&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="2222.5" y="1011.5699999999999" as="geometry" />
+          <mxGeometry height="60" width="120" x="1932.5" y="1045.79" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-252" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="进行绑定处理当前G" vertex="1">
-          <mxGeometry height="60" width="120" x="2062.5" y="1171.57" as="geometry" />
+          <mxGeometry height="60" width="120" x="1772.5" y="1205.79" as="geometry" />
         </mxCell>
         <mxCell id="85t-WSjwfzRYeK0zHOW4-256" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第一章总结" vertex="1">
           <mxGeometry height="60" width="120" x="1150" y="20" as="geometry" />
