@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="jSwZZnRh_JbyynGCm0y_">
-    <mxGraphModel dx="2006" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1384" dy="1498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1weVK3oO24jox4mhwCkv-3" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;rotation=90;" value="" vertex="1">
+          <mxGeometry height="240" width="20" x="100" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="1weVK3oO24jox4mhwCkv-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="50" x="-60" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="1weVK3oO24jox4mhwCkv-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="-10" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="1weVK3oO24jox4mhwCkv-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="1weVK3oO24jox4mhwCkv-8" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;rotation=90;size=0.5;" value="" vertex="1">
+          <mxGeometry height="50" width="20" x="-45" y="-95" as="geometry" />
+        </mxCell>
+        <mxCell id="1weVK3oO24jox4mhwCkv-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="头Header" vertex="1">
+          <mxGeometry height="30" width="60" x="-70" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="1weVK3oO24jox4mhwCkv-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="字段field" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="-60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
