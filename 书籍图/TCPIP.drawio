@@ -4,6 +4,30 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T7s9jghp-WYhsSybA42p-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="前导" vertex="1">
+          <mxGeometry height="60" width="40" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T7s9jghp-WYhsSybA42p-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="340" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="T7s9jghp-WYhsSybA42p-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SFD" vertex="1">
+          <mxGeometry height="60" width="40" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T7s9jghp-WYhsSybA42p-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DST" vertex="1">
+          <mxGeometry height="60" width="40" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T7s9jghp-WYhsSybA42p-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SRC" vertex="1">
+          <mxGeometry height="60" width="40" x="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T7s9jghp-WYhsSybA42p-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="长度或类型" vertex="1">
+          <mxGeometry height="60" width="40" x="230" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T7s9jghp-WYhsSybA42p-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="P/Q标签" vertex="1">
+          <mxGeometry height="60" width="40" x="270" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T7s9jghp-WYhsSybA42p-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="其他标签" vertex="1">
+          <mxGeometry height="60" width="40" x="310" y="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
